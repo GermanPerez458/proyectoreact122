@@ -1,0 +1,75 @@
+
+$prefix: ''; // Define the prefix variable if needed
+$accordion-bg-color: #{$prefix}accordion-bg;
+
+$accordion-bg-color: #{$prefix}accordion-bg;
+$accordion-transition: #{$prefix}accordion-transition;
+$accordion-border-color: #{$prefix}accordion-border-color;
+$accordion-border-width: #{$prefix}accordion-border-width;
+$accordion-border-radius: #{$prefix}accordion-border-radius;
+$accordion-inner-border-radius: #{$prefix}accordion-inner-border-radius;
+$accordion-btn-padding-x: #{$prefix}accordion-btn-padding-x;
+$accordion-btn-padding-y: #{$prefix}accordion-btn-padding-y;
+$accordion-btn-color: #{$prefix}accordion-btn-color;
+$accordion-btn-bg: #{$prefix}accordion-btn-bg;
+$accordion-body-padding-x: #{$prefix}accordion-body-padding-x;
+$accordion-body-padding-y: #{$prefix}accordion-body-padding-y;
+$accordion-color: #{$prefix}accordion-color;
+
+// _accordion.scss
+
+.accordion {
+    margin-top: 20px;
+  }
+  
+  .accordion-button {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+  
+    &:hover {
+      background-color: #e2e6ea;
+    }
+  
+    &.active {
+      background-color: #007bff;
+      color: #fff;
+    }
+  }
+  
+  .accordion-collapse {
+    transition: height 0.3s ease-in-out;
+    overflow: hidden;
+    height: 0;
+  }
+  
+  .accordion-collapse.show {
+    height: auto;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    p {
+      margin-bottom: 0;
+    }
+  
+    a {
+      color: #007bff;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  

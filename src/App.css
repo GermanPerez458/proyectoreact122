@@ -1,0 +1,155 @@
+
+.App {
+  text-align: center;
+  background-color: rgb(165, 47, 26);
+  
+  }
+
+.footer {
+  background-image: url(C:\Users\Whinston\Desktop\mdm\src\imagenes\fondo.jpg);
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #bf7f17;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(8, 5, 5);
+}
+
+.App-link {
+  color: #186a80;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.enlazados {
+
+  background-color: rgb(206, 66, 20);
+  border-radius: 23px;
+  display: inline-block;
+  width: 1300px;
+  height: 500px;
+  
+}
+.enlazados button {
+  box-shadow: inset -13px 6px 19px 3px #276873;
+  background: linear-gradient(to bottom, #000000 5%, #06181b 100%);
+  background-color: #2f7ca2;
+  border-radius: 20px;
+  border: 4px solid #29668f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Times New Roman';
+  font-size: 25px;
+  font-style: italic;
+  padding: 9px 50px;
+  text-decoration: none;
+  text-shadow: -6px 9px 0px #0a050514;
+  margin-bottom: 10px; /* Agrega un espacio entre los botones */
+}
+
+.enlazados button:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.enlazados button:active {
+  position: relative;
+  top: 1px;
+}
+
+
+@media (min-width: 768px) {
+  .button-78 {
+    padding: 19px 32px;
+  }
+}
+
+.button-78:before,
+.button-78:after {
+  border-radius: 80px;
+}
+
+.button-78:before {
+  background-image: linear-gradient(92.83deg, #5f28ac 0, #13d6dcd3 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-78:after {
+  background-color: initial;
+  background-image: linear-gradient(#469483 0, #19bfbf 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-78:hover:not(:disabled):before {
+  background: linear-gradient(92.83deg, rgb(203, 128, 81) 0%, rgb(153, 230, 11) 100%);
+}
+
+.button-78:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.button-78:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-78:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(62, 31, 31, 0.2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.button-78:active:not(:disabled):after {
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-78:disabled {
+  cursor: default;
+  opacity: .24;
+}

@@ -1,0 +1,19 @@
+.main{
+
+    background-color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-display: 4px;
+    font-variant-caps: unicase;
+    
+
+}
+
+.figure-container{
+
+    border: radius 13px;
+}
+
+
+

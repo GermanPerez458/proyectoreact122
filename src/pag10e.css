@@ -1,0 +1,40 @@
+.background{
+
+    background-color: aquamarine;
+
+
+}
+
+
+.table{
+
+    background-color: aquamarine;
+    margin-left: 10;
+}
+
+.tableglass{
+
+    background-color: rgba(170, 153, 58, 0.608);
+
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+.td{
+    font-family: 'Times New Roman', Times, serif;
+}
+.h5{
+
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.zaza{
+    font-size: 15px;
+
+    background-repeat: space;
+
+    animation-delay: initial;
+
+    background-color: rgb(15, 154, 159);
+}

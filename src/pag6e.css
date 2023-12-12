@@ -1,0 +1,88 @@
+.tab{
+
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 10px;
+}
+
+.p{
+
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 10px;
+}
+
+
+.registro {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #582878;
+    border: 1px solid #ced4da;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registro h1 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .registro p {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .registro Form {
+    margin-top: 20px;
+  }
+  
+  .registro Form.Label {
+    color: #333;
+  }
+  
+  .registro Form.Control {
+    margin-bottom: 15px;
+  }
+  
+  .registro Form.Check-label {
+    color: #333;
+  }
+  
+  .registro Button {
+    background-color: #007bff;
+    color: #fff;
+    border:#495057;
+  }
+  
+  .registro Button:hover {
+    background-color: #0056b3;
+  }
+  .matricula {
+    background-color: #3cad2d; 
+    border: 1px solid #01050900; 
+    border-top: 3px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .matricula h3 {
+    color: #99bbdf; 
+  }
+  
+  .matricula p {
+    font-size: 15px;
+    margin: 5px 0;
+    color: #495057; 
+  }
+
+  .matricula .form-check-input {
+    width: 2.5em; 
+    height: 2.5em;
+    margin-top: 0.3em; 
+    margin-left: 5px;
+  }
+  
